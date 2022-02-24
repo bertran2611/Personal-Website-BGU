@@ -1,0 +1,470 @@
+body{
+    overflow-x:hidden ;
+}
+
+/*-------- Welcome --------------*/
+.welcome{
+    height: 100vh;
+    text-align: center;
+}
+
+
+.welcome-text{
+    position: relative;
+    z-index: 0;
+    top: 48vh;
+}
+
+.welcome-button{
+    position: relative;
+    z-index: 0;
+    top: 50vh;
+    margin: 1rem;
+    font-weight: 600;
+
+    background-color: #0F044C;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 7px 40px;
+    transition: 0.3s;
+}
+
+.welcome-button:hover{
+    background-color: white;
+    color: #0F044C;
+    box-shadow: 5px 5px #0F044C;
+}
+
+/*-------- home ----------*/
+.home{
+    height: 100vh;
+    background-color: #0F044C;
+    color: white;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.home-row{
+    position: relative;
+    z-index: 1;
+    padding: 0 10vh;
+}
+
+.home-col img{
+    width: 23rem;
+    border-radius: 50px;
+    box-shadow: 10px 10px;
+    transition: 3s;
+}
+
+.home-col img:hover{
+    box-shadow: 20px 5px;
+}
+
+.home-col-img{
+    position: relative;
+    z-index: 1;
+    top: 30vh;
+    left: 20vh;
+}
+
+.line-home{
+    width: 3px;
+    height: 20em;
+    background-color: white;
+
+    position: relative;
+    z-index: 1;
+    left: 5rem;
+    top: 32vh;
+}
+
+.home-text{
+    position: relative;
+    z-index: 1;
+    top: 40vh;
+    left: 5rem;
+}
+
+.home-text h1{
+    font-weight: 400;
+}
+
+.home-text h1 span{
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.home-text h1 span:hover{
+    text-shadow: 5px 5px #787A91;
+}
+
+.home-text p a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.home-text p a:hover{
+    color: #787A91;
+}
+
+.button-home{
+    font-weight: 600;
+    background-color: white;
+    color: #0F044C;
+    border-radius: 15px;
+    border-style: none;
+
+    padding: 7px 40px;
+    margin: 2rem 1rem 0 0;
+    transition: 0.2s;
+}
+
+.button-home:hover{
+    background-color: #0F044C;
+    color: white;
+    box-shadow: 5px 5px;
+}
+
+/*---------- about ------------*/
+.about{
+    height: 100vh;
+    background-color: white;
+}
+
+.about h2{
+    padding: 20vh 0 1rem 100px;
+}
+
+.about-text{
+    padding: 0 0 0 0;
+}
+
+.about-text p{
+    margin: 0 0 0 100px;
+    text-align: justify;
+}
+
+.button-about{
+    font-weight: 600;
+    background-color: #0F044C;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+
+    padding: 7px 40px;
+    margin: 2rem 0rem 0 10px;
+    transition: 0.2s;
+}
+
+.about-btn{
+    margin: 1rem 0 0 90px;
+}
+
+.button-about:hover{
+    background-color: white;
+    color: #141E61;
+    box-shadow: 5px 5px;
+}
+
+.instagram-embed{
+    position: absolute;
+    z-index: 1;
+    left: 115vh;
+    top: 115vh;
+    max-height: 100px;
+}
+
+/*----- project -------*/
+.project{
+    height: 100vh;
+    background-color: #0F044C;
+    
+}
+.project h2{
+    text-align: center;
+    color: white;
+    padding: 10vh 0 0 0;
+}
+
+.proj-row{
+    padding: 0 5vh 0 5vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    left: 0vh;
+    top: 8vh;
+}
+
+.box-proj a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-proj a:hover{
+    color: #787A91;
+}
+
+
+.box-proj{
+    background-color: white;
+    margin: 0 50px;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px #787A91;
+    transition: .3s;
+}
+
+.box-proj:hover{
+    color: #787A91;
+    box-shadow: 20px 20px;
+}
+
+.box-proj img{
+    max-height: 15rem;
+    max-width: 22.5rem;
+}
+
+.box-proj h4{
+    margin: 15px 20px;
+}
+
+.box-proj1 img{
+    height: 15rem;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.box-proj2 img{
+    height: 15rem;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.box-proj3 img{
+    height: 15rem;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.btn-proj{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 25vh;
+}
+
+.button-project{
+    font-weight: 600;
+    background-color: white;
+    color: #0F044C;
+    border-radius: 15px;
+    border-style: none;
+
+    padding: 7px 40px;
+    margin: 2rem 1rem 0 0;
+    transition: 0.2s;
+}
+
+.button-project:hover{
+    background-color: #0F044C;
+    color: white;
+    box-shadow: 5px 5px;
+}
+
+
+/* ------------------------------- */
+/*------- load wrapper -------*/
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0F044C;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+
+
+
+
+
+
+@media (max-width: 1285.6px ) {
+    .line-home{
+        visibility: hidden;
+    }
+}
+
+
+@media (max-width: 995px ) {
+    .line-home{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 770px){
+    body{
+        overflow-x: hidden;
+    }
+
+    /* welcome*/
+    .welcome-text{
+        top: 45vh;
+    }
+
+    .welcome-button{
+        top: 45vh;
+    }
+
+    /* home */
+    .home{
+        overflow-y: hidden;
+    }
+
+    .home-col img{
+        width: 12rem;
+    }
+
+    .home-text{
+        position: absolute;
+        z-index: 1;
+        top: 50vh;
+        left: 2rem;
+    }
+
+    .home-col-img{
+        position: relative;
+        z-index: 1;
+        top: 10vh;
+        left:4vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .button-home{
+        margin: 1rem 1rem 1rem 0;
+    }
+
+    .line-home{
+        visibility: hidden;
+    }
+
+
+    /* about */
+    
+
+    .about{
+        margin: 0 10px;
+        overflow-x: hidden;
+        height: 120vh;
+    }
+
+    .about h2{
+        padding: 5vh 0 1rem 10px;
+    }
+
+    .about p{
+        margin: 0 10px 0 10px;
+    }
+
+    .about-text{
+        margin: 0 0 0 0;
+    }
+
+    .instagram-embed{
+        visibility: hidden;
+
+        left: 0vh;
+        top: 0vh;
+        height: 0px;
+    }
+
+    .button-about{
+        padding: 7px 40px;
+        margin: 2rem 0rem 0 10px;
+        transition: 0.2s;
+    }
+
+    .about-btn{
+        margin: 1rem 0 20px 7px;
+    }
+
+
+    /* project */
+    .project{
+        height: 180vh;
+    }
+
+    .proj-row{
+        padding: 0 0vh 0 0vh;
+        margin: 0 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        left: 0vh;
+        top: 8vh;
+    }
+
+    .row{
+        width: 350px;
+    }
+
+    .box-proj{
+        margin: 0 20px;
+    }
+
+    .box-proj1 img{
+        height: 15rem;
+        width: 21rem;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+    
+    .box-proj2 img{
+        height: 15rem;
+        width: 21rem;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+    
+    .box-proj3 img{
+        height: 15rem;
+        width: 21rem;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+}
