@@ -1,322 +1,646 @@
 body{
-    padding: 0 0;
-    margin: 0 0;
-    overflow-x: hidden;
+    overflow-x:hidden ;
 }
 
-p{
-    text-align: justify;
-}
-
-a{
-    color: #519259;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #064635;
-}
-
-
-/* nav */
-.navbar{
-    padding: 3px 70px ;
-}
-
-
-
-/* header */
-
-
-
-.full-photo{
-    margin: 0 auto 0 auto;
-    width: 100%;
-    position: relative;
-    bottom: 70px;
-    z-index: -1;
-}
-
-.header-text{
-    color: white;
-    top: 300px;
-    left: 80px;
-    position: absolute;
-    z-index: 1;
-}
-
-.contact-btn, .learn-btn{
-    background-color: #519259;
-    color: white;
-    top: 20px;
-    position: relative;
-    z-index: 1;
-}
-
-.contact-btn:hover, .learn-btn:hover{
-    background-color: #064635;
-    color: white;
-}
-
-
-    /* greetings */
-.halo::after{
-    content: "";
-    font-size: 0px;
-}
-
-.halo:hover:after{
-    content: "(Hi Everyone)";
-    font-size: 30px;
-    font-style: italic;
-}
-
-.selamat-datang::after{
-    content: "";
-    font-size: 0px;
-}
-
-.selamat-datang:hover:after{
-    content: "(Welcome)";
-    font-size: 20px;
-    font-style: italic;
-}
-
-
-/* About */
-
-.about{
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60rem;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    top: 100%;
-    position: absolute;
-    z-index: 1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
-}
-
-.about-us-photo{
-    width: 50%;
-    margin: 40px 0 50px 20%;
-}
-
-.about-text{
-    top: 75px;
-    right: 10%;
-    position: relative;
-    z-index: 1;
-}
-
-/* why */
-.why{
-    margin: 250px 0 100px 0;
+/*-------- Welcome --------------*/
+.welcome{
+    height: 100vh;
     text-align: center;
-    position: relative;
-    z-index: 1;
-    margin: 30rem 0 -20rem 0;
-}
-.why-col{
-    padding: 0 70px;
 }
 
-.fas-why{
-    margin: 0 0 20px 0;
-    bottom: 0px;
+
+.welcome-text{
     position: relative;
-    z-index: 1;
+    z-index: 0;
+    top: 48vh;
+}
+
+.welcome-button{
+    position: relative;
+    z-index: 0;
+    top: 50vh;
+    margin: 1rem;
+    font-weight: 600;
+
+    background-color: #0F044C;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 7px 40px;
     transition: 0.3s;
 }
 
-.fas-why:hover{
-    bottom: 20px;
+.welcome-button:hover{
+    background-color: white;
+    color: #0F044C;
+    box-shadow: 5px 5px #0F044C;
+}
+
+/*-------- home ----------*/
+.home{
+    height: 100vh;
+    background-color: #0F044C;
+    color: white;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.home-row{
+    position: relative;
+    z-index: 1;
+    padding: 0 10vh;
+}
+
+.home-col img{
+    width: 23rem;
+    border-radius: 50px;
+    box-shadow: 10px 10px;
+    transition: 3s;
+}
+
+.home-col img:hover{
+    box-shadow: 20px 5px;
+}
+
+.home-col-img{
+    position: relative;
+    z-index: 1;
+    top: 30vh;
+    left: 20vh;
+}
+
+.line-home{
+    width: 3px;
+    height: 20em;
+    background-color: white;
+
+    position: relative;
+    z-index: 1;
+    left: 5rem;
+    top: 32vh;
+}
+
+.home-text{
+    position: relative;
+    z-index: 1;
+    top: 39vh;
+    left: 5rem;
+}
+
+.home-text h1{
+    font-weight: 400;
+}
+
+.home-text h1 span{
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.home-text h1 span:hover{
+    text-shadow: 5px 5px #787A91;
+}
+
+.home-text p a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.home-text p a:hover{
+    color: #787A91;
+}
+
+.button-home{
+    font-weight: 600;
+    background-color: white;
+    color: #0F044C;
+    border-radius: 15px;
+    border-style: none;
+
+    padding: 7px 40px;
+    margin: 2rem 1rem 0 0;
+    transition: 0.2s;
+}
+
+.button-home:hover{
+    background-color: #0F044C;
+    color: white;
+    box-shadow: 5px 5px;
+}
+
+/*---------- about ------------*/
+.about{
+    height: 100vh;
+    background-color: white;
+}
+
+.about h2{
+    padding: 20vh 0 1rem 100px;
+}
+
+.about-text{
+    padding: 0 0 0 0;
+}
+
+.about-text p{
+    margin: 0 0 0 100px;
+    text-align: justify;
+}
+
+.button-about{
+    font-weight: 600;
+    background-color: #0F044C;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+
+    padding: 7px 40px;
+    margin: 2rem 0rem 0 10px;
+    transition: 0.2s;
+}
+
+.about-btn{
+    margin: 1rem 0 0 90px;
+}
+
+.button-about:hover{
+    background-color: white;
+    color: #141E61;
+    box-shadow: 5px 5px;
+}
+
+.instagram-embed{
+    position: absolute;
+    z-index: 1;
+    left: 115vh;
+    top: 115vh;
+    max-height: 100px;
+}
+
+/*----- project -------*/
+.project{
+    height: 100vh;
+    background-color: #0F044C;
+    
+}
+.project h2{
+    text-align: center;
+    color: white;
+    padding: 10vh 0 0 0;
+}
+
+.proj-row{
+    padding: 0 5vh 0 5vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    left: 0vh;
+    top: 8vh;
+}
+
+.box-proj a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-proj a:hover{
+    color: #787A91;
+}
+
+
+.box-proj{
+    background-color: white;
+    margin: 0 50px;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px #787A91;
+    transition: .3s;
+}
+
+.box-proj:hover{
+    color: #787A91;
+    box-shadow: 20px 20px;
+}
+
+.box-proj img{
+    max-height: 15rem;
+    max-width: 22.5rem;
+}
+
+.box-proj h4{
+    margin: 15px 20px;
+}
+
+.box-proj1 img{
+    height: 15rem;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.box-proj2 img{
+    height: 15rem;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.box-proj3 img{
+    height: 15rem;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.btn-proj{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 25vh;
+}
+
+.button-project{
+    font-weight: 600;
+    background-color: white;
+    color: #0F044C;
+    border-radius: 15px;
+    border-style: none;
+
+    padding: 7px 40px;
+    margin: 2rem 1rem 0 0;
+    transition: 0.2s;
+}
+
+.button-project:hover{
+    background-color: #0F044C;
+    color: white;
+    box-shadow: 5px 5px;
+}
+
+/* organization */
+.org{
+    height: 50vh;
+    text-align: center;
+    padding: 8vh 0;
+}
+
+.logo{
+    margin: 2vh 0;
+}
+
+.logo img{
+    max-width: 15rem;
+    margin: 0 4rem;
+    filter: grayscale(0%);
+    transition: .5s;
+}
+
+.logo img:hover{
+    filter: grayscale(80%);
+    cursor: pointer;
+}
+
+
+
+.logo2{
+    width: 11rem;
+}
+
+.logo3{
+    width: 10rem;
+}
+
+.logo4{
+    width: 12rem;
 }
 
 /* contact */
-.contact-us{
-    margin: 0 0 0 0;
-    padding: 20px 0 0 0;
+.contact{
+    height: 60vh;
+    background-color: #0F044C;
     color: white;
-    background-color: #519259;
+}
+
+.contact h3{
     text-align: center;
-}
-.row-contact{
-    padding: 40px 200px ;
-}
-
-.contact-email-form{
-    text-align: left;
-}
-
-.send-btn{
-    background-color: #fff;
-    color: black;
-    top: 20px;
-    position: relative;
-    z-index: 1;
-}
-
-.send-btn:hover{
-    background-color: rgb(216, 216, 216);
-    color: black;
-}
-
-/* about page */
-.about-page{
-    margin: 60px 0 0 0;
-}
-
-/* photo */
-.photo{
-    margin: 0 50px;
-    padding: 0 0px;
-}
-
-.photo-photo{
-    text-align: center;
-    margin: 4rem 0;
-}
-
-.text-photo{
-    text-align: left;
-    padding: 20px 50px 0 7%;
-}
-    
-.row-photo{
-    margin: 0 3 0 3rem;
-    left: 0;
-    right: 0;
-    position: relative;
-    z-index: 1;
-}
-
-.photo-photo1, .photo-photo2, .photo-photo3{
-    height: 35rem;
-    width: 25rem;
-}
-
-
-/* slide photo */
-.slide-photo{
-    margin: 5rem 10rem;
-}
-
-.carousel-item{
-    height: 50%;
-    bottom: 15rem;
-    position: relative;
-    z-index: 0;
-}
-
-/* footer */
-.disclaimer{
     padding: 2rem;
-    text-align: center;
 }
 
-.footer{
-    
-    background-color: rgb(216, 216, 216);
-}
-.made-by{
-    padding: 1rem;
+.contact-col{
+    padding: 0 10rem;
 }
 
-.social-footer-icon{
-    text-align: center;
+.contact-email h3{
+    text-align: left;
+}
+
+.contact-email button{
+    border-radius: 12px;
+    padding: 0 10px;
+    font-weight: 500;
+    color: #0F044C;
+    box-shadow: 0px 0px white;
+    background-color: white;
+}
+
+.contact-email button:hover{
+    color: white;
+    background-color: #0F044C;
+    box-shadow: 5px 5px white;
+}
+
+.contact-btn{
+    margin: 10px 0 0 -5px;
+}
+
+.direct-contact a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.direct-contact a:hover{
+    text-decoration: underline;
+    color: #787A91;
 }
 
 .social-footer-icon-a{
-    margin: 0 4px;
+    color: white;
+    margin: 0  10px 0 0;
+    position: relative;
+    z-index: 1;
+    bottom: 0px;
+    transition: .3s;
 }
 
-#gmap_canvas{
-    width: 600;
-    height: 500;
+.social-footer-icon-a:hover{
+    color: white;
+    bottom: 3px;
+}
+
+
+/* ------------------------------- */
+/*------- load wrapper -------*/
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0F044C;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+
+
+
+
+
+
+@media (max-width: 1285.6px ) {
+    .line-home{
+        visibility: hidden;
+    }
+}
+
+
+@media (max-width: 995px ) {
+    .line-home{
+        visibility: hidden;
+    }
+
+    .home{
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .home-text{
+        top: -10vh;
+    }
+
+    .home-col-img{
+        top: 12vh;
+        left: 20vh;
+    }
+
+    .project{
+        height: 160vh;
+    }
+
+    .org{
+        height: 60vh;
+    }
+
+
+
+    .contact-col{
+        padding: 0 10vh;
+    }
 }
 
 @media (max-width: 770px){
-
     body{
         overflow-x: hidden;
     }
 
-    .navbar{
-        padding: 5px 0px;
+    /* welcome*/
+    .welcome-text{
+        top: 45vh;
     }
 
-    .full-photo{
-        width: 70rem;
-        bottom: 150px;
+    .welcome-button{
+        top: 45vh;
+    }
+
+    /* home */
+    .home{
+        overflow-y: hidden;
+    }
+
+    .home-col img{
+        width: 12rem;
+    }
+
+    .home-text{
         position: absolute;
+        z-index: 1;
+        top: 50vh;
+        left: 2rem;
     }
 
-    .header-text{
-        left: 20px;
-        top: 80px;
+    .home-col-img{
         position: relative;
+        z-index: 1;
+        top: 10vh;
+        left:4vh;
+        display: flex;
+        align-items: center;
     }
 
-    .about{
+    .button-home{
+        margin: 1rem 1rem 1rem 0;
+    }
+
+    .line-home{
         visibility: hidden;
     }
 
-    .about-us-photo{
-        margin-top: 50%;
-        text-align: center;
-        width: 70%;
+
+    /* about */
+    
+
+    .about{
+        margin: 0 10px;
+        overflow-x: hidden;
+        height: 130vh;
+    }
+
+    .about h2{
+        padding: 5vh 0 1rem 10px;
+    }
+
+    .about p{
+        margin: 0 10px 0 10px;
     }
 
     .about-text{
-        padding: 0 10%;
-        right: 0;
-    }
-
-    .row-contact{
-        padding: 40px 10px ;
-    }
-
-    .photo-photo2, .photo-photo3{
-        padding: 50px 0 0 0;
-    }
-
-    .slide-photo{
-        visibility: hidden;
-    }
-
-    .row-photo{
         margin: 0 0 0 0;
     }
 
-    .text-photo{
+    .instagram-embed{
+        visibility: hidden;
+
+        left: 0vh;
+        top: 0vh;
+        height: 0px;
+    }
+
+    .button-about{
+        padding: 7px 40px;
+        margin: 2rem 0rem 0 10px;
+        transition: 0.2s;
+
+    }
+
+    .about-btn{
+        margin: 1rem 0 20px 0px;
         text-align: center;
-        padding: 20px 10px 0 10px;
     }
 
-    .why-col{
-        padding: 0 20px;
+
+    /* project */
+    .project{
+        height: 220vh;
     }
 
-    #gmap_canvas{
-        width: 50%;
-        height: 80%;
-        right: 200px;
+    .proj-row{
+        padding: 0 0vh 0 0vh;
+        margin: 0 0;
+        text-align: center;
         position: relative;
         z-index: 1;
+        left: 0vh;
+        top: 8vh;
     }
 
-    .contact-us{
-        padding: 20px 0 0 0;
+    .row{
+        width: 350px;
     }
 
-    .why{
-        margin: 30rem 0 0 0;
+    .box-proj{
+        margin: 0 20px;
     }
 
-    .row-photo-all{
-        margin: -30rem 0 0 0;
+    .box-proj1 img{
+        height: 15rem;
+        width: 21rem;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
     }
+    
+    .box-proj2 img{
+        height: 15rem;
+        width: 21rem;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+    
+    .box-proj3 img{
+        height: 15rem;
+        width: 21rem;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+
+    .btn-proj{
+        top: 14vh;
+        margin: 0 0 1rem 0;
+    }
+
+    /* organization */
+    .org{
+        height: 70vh;
+        text-align: center;
+        padding: 8vh 0;
+    }
+
+    .logo img{
+        margin: 2vh;
+    }
+
+    .logo{
+        margin: 5vh 0;
+    }
+
+    .logo1{
+        width: 8rem;
+    }
+        
+    .logo2{
+        width: 7rem;
+    }
+    
+    .logo3{
+        width: 6rem;
+    }
+    
+    .logo4{
+        width: 8rem;
+    }
+
+    /* contact */
+    .contact{
+        height: 110vh;
+        overflow-x: hidden ;
+        overflow-y: hidden;
+    }
+
+    
 }
