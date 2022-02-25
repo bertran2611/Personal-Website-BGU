@@ -482,6 +482,7 @@ body{
     /* home */
     .home{
         overflow-y: hidden;
+        height: 110vh;
     }
 
     .home-col img{
