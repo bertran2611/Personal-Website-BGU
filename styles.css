@@ -417,16 +417,18 @@ body{
         padding: 7px 40px;
         margin: 2rem 0rem 0 10px;
         transition: 0.2s;
+
     }
 
     .about-btn{
-        margin: 1rem 0 20px 7px;
+        margin: 1rem 0 20px 0px;
+        text-align: center;
     }
 
 
     /* project */
     .project{
-        height: 180vh;
+        height: 200vh;
     }
 
     .proj-row{
@@ -466,5 +468,10 @@ body{
         width: 21rem;
         margin: 10px 0 0 0;
         border-radius: 10px;
+    }
+
+    .btn-proj{
+        top: 14vh;
+        margin: 0 0 1rem 0;
     }
 }
